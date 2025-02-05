@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.contrainer{
+  padding: 0 25px;
+
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  background-color: rgba(26, 2, 2, 0.938);
+  width: 100vw;
+  box-sizing: border-box;
+}
+.barstyle{
+  font-size: 30px;
+}
+.rightnav a {
+  text-decoration: none;
+  color: rgb(238, 223, 223);
+  margin-left: 25px;
+  margin-right: 10px;
+  font-size: 19px;
+  font-family: "Poppins", serif;
+  font-weight: 500;
+}
+ body{
+  margin: 0px;
+ }
+main{
+  margin-top: 100px;
+}
+.ig{
+  width: 130px;
+  height: auto;
+}
+.sc{
+  text-decoration: none;
+  color: whitesmoke;
+  margin-left: 25px;
+  margin-right: 10px;
+  font-size: 15px;
+  font-weight: 500;
+
+}
+
+
+.ip{
+   height: 250px;
+   width: 300px;
+   border-width: 5px;
+ margin-left: auto;
+ padding: 15px;
+   border-style: double;
+   border-image:linear-gradient( blue,violet) 1 ;
+}
+
+
+.child {
+   background-image: linear-gradient(blue ,black);
+   border: 2px solid green;
+   height: 100px;
+   width: auto
+ }
+ .box{
+  
+   margin: 5px;
+   display: grid;
+   grid-template-columns: 1fr 2fr  1fr  ;
+ }
+.child1 {
+   color: white;
+  background-image: linear-gradient( red,yellow);
+
+   border: 2px solid rgb(173, 214, 25);
+   height: 100px;
+   width: auto;
+   font-size: 70px;
+   font-weight: 700;
+   padding: 50px;
+ }
+ .box2{
+   margin: 15px;
+   height: 580px;
+  background-color: rgb(61, 112, 112);
+  width: 800px;
+   display: grid;
+   grid-template-columns:auto auto auto auto  ;
+   justify-content: space-around;
+ }
+ .picture{
+  height: 350px;
+  width: 254px;
+  color: black;
+  background-color: rgba(240, 248, 255, 0.411);
+  border: 2px solid salmon;
+  box-shadow: 10px 12px 9px black;
+ 
+ }
+ body{
+  margin: 0;
+ }
+  .mg{
+    width: 250px;
+    height: auto;
+  }
+  .price{
+    color:#d68910;
+    margin-left: 5px;
+    font-size: 21px;
+    font-weight:500;
+  }                                                                                                                                                                                                        
+  .icon{                                                                                                                                                                                                                                                                                             
+    color: red;
+                                                                                                                                                                                                                                                                                                                                                                                                        
+  }
+  main{
+    margin-top: 100px;
+  }
+  #bn{
+    height: 40px;
+    width: 90px;
+    color: white;                                                                                                                                                                                                                   
+    background-color: green;
+    border: 1px solid rgba(48, 51, 48, 0.349);
+    border-radius: 25px;
+    margin: 15px;
+    padding: 10px;
+
+  }
+  #classs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  #bn:hover{
+    color: green;
+    background-color: white;
+    border: 3px dashed green;
+  }
+
+#Card{
+  height: 490px;
+  width: 750px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rg{
+  color: rgb(76, 19, 207);
+  font-weight: 400;
+}
+
+  #bar{
+    display: none;
+  }
+.icon{
+  color: #e7e0d4;
+ font-size: 35px;
+ font-weight: 600;
+}
+
+@media screen and(max-width:1024px) {}
+@media screen and(max-width:834px) {}
+@media screen and(max-width:768px) {
+  .rightnav{
+    display: none;
+  }
+  #bar{
+    display: block;
+  }
+  
+}
+@media screen and(max-width:480px) { 
+  .rightnav{
+  display: none;
+}
+#bar{
+  display: block;
+}
+
+  
+}
