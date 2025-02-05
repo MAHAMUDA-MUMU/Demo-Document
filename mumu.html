@@ -27,15 +27,24 @@
             margin-left: 15px;
             margin-right: 5px;
         }
-        @media screen and (max-width:769px) {
+        .bars{
+            display: none;
+        }
+        @media screen and(max-width:769px) {
             body{
-                background-color: rgb(228, 182, 31);
+                background-color: rgb(214, 202, 35);
             }
             
         }
         @media  screen and (max-width:455px) {
            body{
             background-color: rgba(18, 207, 33, 0.842);
+           }
+           .bars{
+            display: block;
+           }
+           .rightn a {
+            display: none;
            }
         }
     </style>
@@ -49,33 +58,21 @@
             <a href="">Contact</a>
             <a href="">Blog</a>
             <a href="">Log</a>
+            <i class="fa-solid fa-bars bars"></i>
         </div>
     </header>
 
 
 
+<p>Lorem ipsum dolor sit amet.</p>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <i class="fa fa-search"></i>
+    
      <h1> Add font awesome icon :</h1> 
      <i class="fa-solid fa-bars"></i>
      <i class="fa-brands fa-twitter"></i>
      <i class="fa-solid fa-star"></i>
      <i class="fa-brands fa-instagram"></i>
-
+     <i class="fa fa-search"></i>
 </body>
 </html>

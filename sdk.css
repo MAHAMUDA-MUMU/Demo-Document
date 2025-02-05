@@ -11,14 +11,26 @@ body{
     width: 120px;
     height: auto;
 }
+.ig{
+    color: #bd3277fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .rnav a{
     text-decoration: none;
     color: black;
     font-size: 25px;
     font-weight: 400;
     margin-left: 15px;
-    margin-right: 14px;
+    margin-right: 16px;
 
+}
+.rnav a:hover{
+    background-color: black;
+    color: azure;
+    margin: 13px;
+    padding: 11px;
 }
  #barstyle {display: none;
    
@@ -42,8 +54,9 @@ body{
         font-size: 25px;
         font-weight: 400;
         color: white;
+        margin: 34px;
     }
-    .rnav{
+    .rnav a{
         display: none;
     }
     
@@ -54,12 +67,13 @@ body{
         
     }
     .fot{ 
-        display: none;
+        display: block;
     }
-    .rnav{
+    .rnav a {
         display: none;
     }
     #barstyle{
+        margin: 29px;
         display: block;
         color: white;
     }
